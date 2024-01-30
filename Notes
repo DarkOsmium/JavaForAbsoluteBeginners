@@ -1,0 +1,79 @@
+public static void main(String[] arg){}          This is the main method of your code, can be created by typing main in
+                                                 your class.
+System.out.print                                 This prints whatever valid input is in the parentheses.
+System.out.println                               This is the same as System.out.print except it prints a new line
+System.out.format                                Works the same as System.out.print except you can format it. 2 arguments
+                                                 one something and another something
+%d                                               Is used with System.out.format. it can be inserted in the text and has a value
+                                                 like a variable.Format specifier.Used for integers
+%s                                               Same as %d but for strings
+%._f                                             Same as %d but for doubles and floats. You can use ._ to tell it how many
+                                                 decimal points.
+\n                                               Creates new line when put in quotations in the parenthesis of the print
+                                                 statements.
+\b,\t                                            Like before but b puts backspace and t puts a tab.
+\                                                This can make a command into text withing quotation marks.
+public static void _____ (){}                    This creates a new method
+int                                              This is used to store a value in a variable, only integers to a certain
+                                                 size. Range: -2147483648 to 2147483647 Default
+short                                            Only integers. Range: -32768 to 32767
+byte                                             Only integers. Range: -128 to 127
+long                                             Only integers. Range: -9223372036854775808 to 9223372036854775807
+float                                            All real Numbers. Range: varies
+double                                           All real Numbers. Range: varies  Default
+boolean                                          Only ture or false
+char                                             Range : 0 to 65535 it does a letter or symbol that is in '' each letter or
+                                                 symbol has a number equivalent.Also has a hexadecimal equivalent that starts
+                                                 with \u.
+String                                           Text between double quotes. More advanced char. Reference data type. Use
+                                                 + sign to connect two strings. Careful for spacing.
++ - * /                                          These are the addition/subtraction/multiplication/division
+(double,int,etc.)                                This will cast a variable to the wanted type of number or value.
+import ____.____.____;                           This is for importing a package so you can use a class within it.
+new Scanner(____);                               This scanner scans something. That something goes in the parentheses.
+System.in                                        This can be put in a scanner telling it to scan the users input using the
+                                                 keyboard,it is called standard input.
+Scanner.next                                     This finds and returns the next complete token from the scanner
+Scanner_____                                     This is how to store a scanner using a variable.
+Scanner.next                                     Used to pause and wait for user input before continuing code
+Scanner.nextInt                                  This returns a int instead of a string.
+Scanner.nextDouble                               Like .nextInt but for double
+Scanner.nextBoolean                              Like .nextInt but for Boolean
+Scanner.nextLine                                 This reads entire line instead of last token
+Scanner.next_______                              There are a few more like .nextInt
+//                                               This comments out a line
+/*   */                                          This comments out everything between the *.
+<                                                less than
+>                                                Greater than
+>=                                               Greater or equal to
+<=                                               less or equal to
+==                                               equal to
+!=                                               not equal to
+if (condition) {body}                            if condition ture print body if not don't. (beginning of statement)
+else {body}                                      if if statement is ture run if statement if else run else.(end of if statement)
+else if () {}                                    if if statement is false it will check this statement.
+                                                 (else if blocks must go in between. As many as you want).
+||                                               This can separate two inequalities. means or
+&&                                               This can say that both inequalities must be true. Means and
+_____.equals(_____)                              Used to see if strings are the same. The equal method
+switch                                           like the if statement but based on cases.
+case_                                            A case will print what is under it if selected
+break;                                           Stops the code from flowing on to code it shouldn't print.
+default                                          Used in switch as the default thing that is printed.
+ThreadLocalRandom.current().next__(_,_);         This is used to generate a random number between two numbers.
+while(){}                                        While a condition is true repeat and run again
+_++                                              Adds 1 each time
+_--                                              Minuses 1 each time
+_ += _                                           Adds something each time
+for(__;__;__){ body }                            More compact way to do the for loop
+continue                                         Only skips current iteration.
+do{}while()                                      Like while but it runs body before checking condition so it always runs at
+                                                 least once
+%                                                modulo operator. Gives the remainder of a division number
+___[]                                            Array. Stores more than one value. Can be used to print certain values
+____.length                                      The length of the array
+__();                                            This makes the program run the method(function)
+public static void __(__)                        Inside the parentheses are the parameters
+__(__);                                          Inside the parentheses are the arguments.
+return;                                          returns to the method
+public static ___ foo();                         Type being returned
